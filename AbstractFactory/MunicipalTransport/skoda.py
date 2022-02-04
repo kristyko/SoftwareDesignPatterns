@@ -1,4 +1,4 @@
-from SoftwareDesignPatterns.AbstractFactory.MunicipalTransport.abstract_classes import Bus, Tram, Trolley, TransportFactory
+from abstract_classes import Bus, Tram, Trolley, TransportFactory
 
 
 class SkodaBus(Bus):

@@ -20,21 +20,21 @@ class PublicTransport(ABC):
         return self._usage_cost
 
 
-class Bus(ABC, PublicTransport):
+class Bus(PublicTransport):
 
     @abstractmethod
     def go_by_road(self):
         pass
 
 
-class Tram(ABC, PublicTransport):
+class Tram(PublicTransport):
 
     @abstractmethod
     def go_by_rails(self):
         pass
 
 
-class Trolley(ABC, PublicTransport):
+class Trolley(PublicTransport):
 
     @abstractmethod
     def go_by_contact_network(self):

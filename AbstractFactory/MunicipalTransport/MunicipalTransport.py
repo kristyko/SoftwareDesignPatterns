@@ -1,8 +1,8 @@
 from typing import Optional
 
-from SoftwareDesignPatterns.AbstractFactory.MunicipalTransport.abstract_classes import TransportFactory
-from SoftwareDesignPatterns.AbstractFactory.MunicipalTransport.skoda import SkodaFactory
-from SoftwareDesignPatterns.AbstractFactory.MunicipalTransport.volvo import VolvoFactory
+from abstract_classes import TransportFactory
+from skoda import SkodaFactory
+from volvo import VolvoFactory
 
 
 def client_code(brand: str) -> Optional[int]:
