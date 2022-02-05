@@ -1,0 +1,73 @@
+# of solutions: 1
+   Linear Equation         9x + 4 = 0                            Roots: [-0.4444444444444444]
+   Linear Equation         52x + -69 = 0                         Roots: [1.3269230769230769]
+   Biquadratic Equation    -24x^4 + 0x + 0 = 0                   Roots: [0]
+   Linear Equation         12x + 18 = 0                          Roots: [-1.5]
+   Quadratic Equation      -16x^2 + 0x + 0 = 0                   Roots: [-0.0]
+   Linear Equation         -88x + 0 = 0                          Roots: [-0.0]
+   Linear Equation         46x + 0 = 0                           Roots: [0.0]
+   Linear Equation         -57x + 24 = 0                         Roots: [0.42105263157894735]
+   Linear Equation         -28x + 12 = 0                         Roots: [0.42857142857142855]
+   Linear Equation         -16x + 1 = 0                          Roots: [0.0625]
+   Linear Equation         18x + 0 = 0                           Roots: [0.0]
+   Linear Equation         -63x + 30 = 0                         Roots: [0.47619047619047616]
+   Quadratic Equation      -9x^2 + 0x + 0 = 0                    Roots: [-0.0]
+   Linear Equation         -40x + 23 = 0                         Roots: [0.575]
+   Linear Equation         8x + 17 = 0                           Roots: [-2.125]
+   Quadratic Equation      18x^2 + 0x + 0 = 0                    Roots: [0.0]
+   Biquadratic Equation    -27x^4 + 0x + 0 = 0                   Roots: [0]
+
+# of solutions: 2
+   Biquadratic Equation    9x^4 + 0x + -18 = 0                   Roots: [-1.189207115002721, 1.189207115002721]
+   Quadratic Equation      -8x^2 + -5x + 46 = 0                  Roots: [2.1056927652691377, -2.7306927652691377]
+   Quadratic Equation      40x^2 + -40x + 0 = 0                  Roots: [0.0, 1.0]
+   Quadratic Equation      -18x^2 + -38x + 0 = 0                 Roots: [-0.0, -2.111111111111111]
+   Quadratic Equation      -57x^2 + 0x + 10 = 0                  Roots: [0.41885390829169555, -0.41885390829169555]
+   Quadratic Equation      -32x^2 + 69x + 36 = 0                 Roots: [2.5905249192095323, -0.4342749192095323]
+   Quadratic Equation      22x^2 + 12x + 0 = 0                   Roots: [-0.5454545454545454, 0.0]
+   Quadratic Equation      -22x^2 + 69x + -25 = 0                Roots: [2.7183255389890904, 0.41803809737454595]
+   Quadratic Equation      -80x^2 + 19x + 36 = 0                 Roots: [0.8, -0.5625]
+   Quadratic Equation      38x^2 + -38x + -26 = 0                Roots: [-0.4665456669582609, 1.4665456669582608]
+   Quadratic Equation      -10x^2 + 18x + 0 = 0                  Roots: [1.8, -0.0]
+   Biquadratic Equation    100x^4 + -32x^2 + 0x + -19 = 0        Roots: [-0.7901439556497006, 0.7901439556497006]
+   Biquadratic Equation    -13x^4 + -33x^2 + 0x + 20 = 0         Roots: [-0.7109335136131635, 0.7109335136131635]
+   Biquadratic Equation    2x^4 + -11x^2 + 0x + -69 = 0          Roots: [-3.039006562272682, 3.039006562272682]
+   Quadratic Equation      6x^2 + 21x + -22 = 0                  Roots: [-4.344063736045563, 0.8440637360455634]
+   Quadratic Equation      -51x^2 + -56x + 0 = 0                 Roots: [-0.0, -1.0980392156862746]
+   Quadratic Equation      -28x^2 + 0x + 23 = 0                  Roots: [0.9063269671749657, -0.9063269671749657]
+   Quadratic Equation      9x^2 + -76x + 0 = 0                   Roots: [0.0, 8.444444444444445]
+   Quadratic Equation      32x^2 + -69x + -15 = 0                Roots: [-0.19902163043246524, 2.3552716304324655]
+   Quadratic Equation      69x^2 + 92x + -51 = 0                 Roots: [-1.7545889429470327, 0.42125560961369934]
+   Quadratic Equation      36x^2 + 0x + -54 = 0                  Roots: [-1.224744871391589, 1.224744871391589]
+   Quadratic Equation      42x^2 + 20x + -46 = 0                 Roots: [-1.311374063769966, 0.83518358757949]
+   Quadratic Equation      -18x^2 + 39x + 0 = 0                  Roots: [2.1666666666666665, -0.0]
+   Quadratic Equation      -80x^2 + -60x + -7 = 0                Roots: [-0.1445113885676778, -0.6054886114323221]
+   Quadratic Equation      6x^2 + 20x + 0 = 0                    Roots: [-3.3333333333333335, 0.0]
+   Quadratic Equation      60x^2 + -2x + -42 = 0                 Roots: [-0.8201593473755461, 0.8534926807088794]
+   Quadratic Equation      18x^2 + 0x + -42 = 0                  Roots: [-1.5275252316519468, 1.5275252316519468]
+
+# of solutions: 0
+   Biquadratic Equation    -84x^4 + 39x^2 + 0x + -6 = 0          Roots: []
+   Quadratic Equation      -46x^2 + -12x + -39 = 0               Roots: []
+   Biquadratic Equation    18x^4 + 33x^2 + 0x + 68 = 0           Roots: []
+   Biquadratic Equation    -40x^4 + -6x^2 + 0x + -34 = 0         Roots: []
+   Linear Equation         0x + 5 = 0                            Roots: []
+   Quadratic Equation      -36x^2 + 0x + -57 = 0                 Roots: []
+   Linear Equation         0x + 18 = 0                           Roots: []
+   Quadratic Equation      72x^2 + -25x + 12 = 0                 Roots: []
+   Quadratic Equation      22x^2 + 0x + 15 = 0                   Roots: []
+   Biquadratic Equation    -24x^4 + 22x^2 + 0x + -12 = 0         Roots: []
+   Biquadratic Equation    28x^4 + -56x^2 + 0x + 30 = 0          Roots: []
+
+# of solutions: 3
+   Biquadratic Equation    16x^4 + -12x^2 + 0x + 0 = 0           Roots: [0, -0.8660254037844386, 0.8660254037844386]
+
+# of solutions: 4
+   Biquadratic Equation    1x^4 + -3x^2 + 0x + 2 = 0             Roots: [-1.0, 1.0, -1.4142135623730951, 1.4142135623730951]
+
+# of solutions: infinite amount of solutions
+   Linear Equation         0x + 0 = 0                            Roots: ['infinite amount of solutions']
+
+
+Equation with minimal solution : (Linear Equation         8x + 17 = 0, [-2.125])
+Equation with maximal solution : (Linear Equation         52x + -69 = 0, [1.3269230769230769])
