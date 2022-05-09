@@ -1,0 +1,11 @@
+builder1:  <__main__.PizzaBuilder object at 0x1181de350> builder2:  <__main__.PizzaBuilder object at 0x1181ddc90>
+<__main__.PizzaBuilder object at 0x1181de350>
+<__main__.PizzaBuilder object at 0x1181de350>
+PIZZA Margherita:
+  Crust: gluten_free flour, thin
+  Ingredients: olive_oil x 1; tomato_sauce x 1; mozzarella x 1; basil x 1; spices x 2
+  Cost: 2.9
+PIZZA :
+  Crust: all_purpose flour, standard
+  Ingredients: tomato_sauce x 1; mozzarella x 2; burrata_cheese x 1; prosciutto x 1; olives x 1
+  Cost: 5.05
