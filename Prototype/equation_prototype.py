@@ -1,3 +1,5 @@
+# implementation of Prototype is hinted by the tips in Refactoring Guru - the book
+
 import copy
 
 from math import sqrt
@@ -15,13 +17,25 @@ def _get_square_roots(x):
 
 
 class Equation:
-    n_coeff = 2
+    _n_coeff = 2
     _type: str = "Linear Equation"
     _coefficients: List[int]
 
     def __init__(self, coeff: List[int]):
-        assert len(coeff) == self.n_coeff and coeff[0] != 0
+        assert len(coeff) == self._n_coeff and coeff[0] != 0
         self._coefficients = coeff
+
+    def set_coefficient(self, a: int, i: int):
+        try:
+            self._coefficients[i] = a
+        except IndexError:
+            print(
+                f"Probably you got the index wrong:\n"
+                f"  valid values: 0..{self._n_coeff-1}, your index: {i}"
+            )
+
+    def get_coefficients(self):
+        return self._coefficients
 
     def solve(self):
         b, c = self._coefficients
@@ -64,7 +78,7 @@ class Equation:
 
 
 class QuadraticEquation(Equation):
-    n_coeff = 3
+    _n_coeff = 3
     _type: str = "Quadratic Equation"
 
     def solve(self):
@@ -79,7 +93,7 @@ class QuadraticEquation(Equation):
 
 
 class BiQuadraticEquation(Equation):
-    n_coeff = 5
+    _n_coeff = 5
     _type: str = "Biquadratic Equation"
 
     def solve(self):
