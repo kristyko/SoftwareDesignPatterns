@@ -1,0 +1,11 @@
+Original:  Quadratic Equation      1x^2 + 2x + 1 = 0
+Copy:      Quadratic Equation      1x^2 + 2x + 1 = 0
+Deep copy: Quadratic Equation      1x^2 + 2x + 1 = 0
+Equations after changing the copy
+Original:  Quadratic Equation      1x^2 + 2x + 5 = 0
+Copy:      Quadratic Equation      1x^2 + 2x + 5 = 0
+Deep copy: Quadratic Equation      1x^2 + 2x + 1 = 0
+equations after changing the original
+Original:  Quadratic Equation      2x^2 + 2x + 5 = 0
+Copy:      Quadratic Equation      2x^2 + 2x + 5 = 0
+Deep copy: Quadratic Equation      1x^2 + 2x + 1 = 0
