@@ -1,0 +1,5 @@
+Auto  model: Ford; age: 1; is damaged: False, milleage: 3000
+price=23200.0UAH, tax=3480.0UAH
+
+Auto  model: truck; age: 5; is damaged: False, milleage: 10000
+price=75200.0UAH, tax=11280.0UAH
