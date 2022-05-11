@@ -21,3 +21,7 @@ class Auto:
     def mileage(self):
         return self._mileage
 
+    def __str__(self):
+        return (
+            f"Auto  model: {self.model}; age: {self.age}; is damaged: {self.damaged}, milleage: {self.mileage}"
+        )

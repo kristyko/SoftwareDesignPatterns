@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from vehicles import Vehicle
+from .vehicles import Vehicle, Car, Truck
 
 
 class VehicleCalculator(ABC):
@@ -33,14 +33,15 @@ class CarCalculator(VehicleCalculator):
             return 10000
         return CarCalculator.average_car_price
 
-    def set_vehicle(self, vehicle: Vehicle):
+    def set_vehicle(self, vehicle: Car):
         self._vehicle = vehicle
 
     def calculate_price(self) -> str:
         assert self._vehicle is not None
 
         vehicle = self._vehicle
-        price = (vehicle.get_damage() * max(self.get_retail_price() - (vehicle.get_age() * 100), 0))
+        # the formula is modified, otherwise I got 0 USD for non-damaged car
+        price = ((1 - vehicle.get_damage()) * max(self.get_retail_price() - (vehicle.get_age() * 100), 0))
         return str(price) + "USD"
 
 
@@ -50,7 +51,7 @@ class TruckCalculator(VehicleCalculator):
     def __init__(self):
         self._vehicle = None
 
-    def set_vehicle(self, vehicle: Vehicle):
+    def set_vehicle(self, vehicle: Truck):
         self._vehicle = vehicle
 
     def calculate_price(self) -> str:
