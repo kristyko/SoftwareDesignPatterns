@@ -1,7 +1,7 @@
 from typing import List
 
-from SoftwareDesignPatterns.Composite.manager import Manager
-from SoftwareDesignPatterns.Composite.salesperson import Salesperson
+from SoftwareDesignPatterns.Composite.pre_refactor.manager import Manager
+from SoftwareDesignPatterns.Composite.pre_refactor.salesperson import Salesperson
 
 
 class SalesTeam:

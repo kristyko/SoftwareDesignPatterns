@@ -1,0 +1,13 @@
+Expenses have been requested
+Jane has been paid $100
+Expenses have been paid
+
+Expenses have been requested
+Bob has been paid $300
+Expenses have been paid
+
+Expenses have been requested
+Jane has been paid $200
+Bob has been paid $200
+Sue has been paid $200
+Expenses have been paid
