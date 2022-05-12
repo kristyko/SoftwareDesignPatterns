@@ -1,6 +1,6 @@
-from SoftwareDesignPatterns.Composite.manager import Manager
-from SoftwareDesignPatterns.Composite.sales_team import SalesTeam
-from SoftwareDesignPatterns.Composite.salesperson import Salesperson
+from SoftwareDesignPatterns.Composite.pre_refactor.manager import Manager
+from SoftwareDesignPatterns.Composite.pre_refactor.sales_team import SalesTeam
+from SoftwareDesignPatterns.Composite.pre_refactor.salesperson import Salesperson
 
 
 def pay_manager(manager, amount):
