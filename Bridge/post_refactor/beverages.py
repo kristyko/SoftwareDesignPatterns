@@ -2,13 +2,17 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import List
 
+from order_type import OrderType, TakeIn
 from beverage_additions import BeverageAddition
 
 
 class Beverage(ABC):
-    def __init__(self, sugar: int = 0, additions: List[BeverageAddition] = None):
+    def __init__(
+            self, sugar: int = 0, additions: List[BeverageAddition] = None, order_type: OrderType = TakeIn()
+    ):
         self._sugar = sugar
-        self._additions: List[BeverageAddition] = additions
+        self._additions = additions
+        self._order_type = order_type
 
     @property
     def additions_names(self):
@@ -36,9 +40,10 @@ class Beverage(ABC):
 
 class Chocolate(Beverage):
     def drink(self):
-        print(f"Drink {self.additions_names} chocolate!")
+        print(f"Drink {self.additions_names} chocolate {self._order_type.where()}!")
 
     def prepare(self):
+        self._order_type.prepare_cup()
         print("Put some cacao...")
         super(Chocolate, self).prepare()
 
@@ -48,9 +53,10 @@ class Chocolate(Beverage):
 
 class Coffee(Beverage):
     def drink(self):
-        print(f"Drink {self.additions_names} coffee!")
+        print(f"Drink {self.additions_names} coffee {self._order_type.where()}!")
 
     def prepare(self):
+        self._order_type.prepare_cup()
         print("Put some coffee...")
         super(Coffee, self).prepare()
 
@@ -60,9 +66,10 @@ class Coffee(Beverage):
 
 class Tea(Beverage):
     def drink(self):
-        print(f"Drink {self.additions_names} tea!")
+        print(f"Drink {self.additions_names} tea {self._order_type.where()}!")
 
     def prepare(self):
+        self._order_type.prepare_cup()
         print("Put some tea...")
         super(Tea, self).prepare()
 

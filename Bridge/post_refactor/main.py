@@ -1,3 +1,4 @@
+from SoftwareDesignPatterns.Bridge.post_refactor.order_type import TakeOut
 from beverage_additions import WaterAddition, ExtraAddition, MilkAddition
 from beverages import Beverage, Coffee, Chocolate, Tea
 
@@ -20,7 +21,7 @@ if __name__ == '__main__':
 
     milk_chocolate = Chocolate(3, [MilkAddition(200)])
     coffee_with_milk = Coffee(3, [MilkAddition(200)])
-    tea_with_milk = Tea(2, [MilkAddition(300)])
+    tea_with_milk = Tea(2, [MilkAddition(300)], TakeOut())
 
     beverage_info(milk_chocolate)
     beverage_info(coffee_with_milk)
