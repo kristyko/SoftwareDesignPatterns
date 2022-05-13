@@ -161,6 +161,7 @@ class BlackTea(Tea):
 
     def prepare(self):
         super().prepare()
+        print("Put extra tea...")
         print(f"Put some hot water : {self._water_volume} ml...", )
         if self._sugar > 0:
             print(f"Put some sugar: {self._sugar} pieces ...")
