@@ -1,0 +1,20 @@
+Car:
+ type=Sedan,
+ car_color=White,
+ engine=Engine power=105, fuel=Petrol, hash=286123789,
+ wheel=Wheel material=steel, diameter=17, hash=286078125
+ hash=286123317
+
+Car:
+ type=Sedan,
+ car_color=Black,
+ engine=Engine power=105, fuel=Petrol, hash=286123789,
+ wheel=Wheel material=steel, diameter=17, hash=286078125
+ hash=285493629
+
+Car:
+ type=Sedan,
+ car_color=White,
+ engine=Engine power=150, fuel=Electric, hash=286125221,
+ wheel=Wheel material=steel, diameter=17, hash=286078125
+ hash=286125225
