@@ -3,7 +3,7 @@
 т. д. Розглядається моделювання процесу оплати в інтернеті.
 
 
-[github.com/krenevych/patterns/tree/main/Java/labs/lab21_Strategy/task_3_1](github.com/krenevych/patterns/tree/main/Java/labs/lab21_Strategy/task_3_1)
+[github.com/krenevych/patterns/tree/main/Java/labs/lab21_Strategy/task_3_1](https://github.com/krenevych/patterns/tree/main/Java/labs/lab21_Strategy/task_3_1)
 
 Необхідно провести рефакторинг коду, використовуючи шаблон
 проектування **Стратегія**, так, щоб спосіб вибору методу оплати визначався
