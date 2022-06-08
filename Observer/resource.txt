@@ -1,0 +1,11 @@
+class LongestWordObserver(FileObserver):
+    _word = ""
+
+    def update(self, row_number: int, row: str) -> None:
+        word = line2words(row)
+        if len(self._word) < len(word):
+            print("LongestWordObserver updated")
+            self._word = word
+
+    def get_longest_word_in_file(self):
+        return self._word
