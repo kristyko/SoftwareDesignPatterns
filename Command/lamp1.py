@@ -6,23 +6,20 @@ from abc import ABC, abstractmethod
 # ========= Command ==========
 
 class Command(ABC):
+    def __init__(self, receiver: Lamp):
+        self._receiver = receiver
+
     @abstractmethod
     def execute(self):
         pass
 
 
 class On(Command):
-    def __init__(self, receiver: Lamp):
-        self._receiver = receiver
-
     def execute(self):
         self._receiver.light_on()
 
 
 class Off(Command):
-    def __init__(self, receiver: Lamp):
-        self._receiver = receiver
-
     def execute(self):
         self._receiver.light_off()
 
@@ -30,11 +27,15 @@ class Off(Command):
 # ========= Invoker ==========
 
 class Controller:
-    def on(self, command: On):
-        command.execute()
+    def __init__(self, on_command: On, off_command: Off):
+        self._on_command = on_command
+        self._off_command = off_command
 
-    def off(self, command: Off):
-        command.execute()
+    def on(self):
+        self._on_command.execute()
+
+    def off(self):
+        self._off_command.execute()
 
 
 # ========== Receiver ==========
@@ -59,14 +60,19 @@ class Lamp:
 
 if __name__ == '__main__':
     lamp = Lamp()
-    controller = Controller()
     on_command = On(lamp)
     off_command = Off(lamp)
+    controller = Controller(on_command, off_command)
 
-    controller.on(on_command)
-    controller.on(on_command)
-    controller.off(off_command)
-    controller.off(off_command)
-    controller.on(on_command)
-    controller.on(on_command)
-    controller.off(off_command)
+    controller.on()
+    controller.on()
+    controller.off()
+    controller.off()
+    controller.on()
+    controller.on()
+    controller.off()
+
+# default: Light is on
+# default: Light is off
+# default: Light is on
+# default: Light is off
