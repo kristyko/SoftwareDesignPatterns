@@ -1,0 +1,25 @@
+**15.3.1.** Змоделюйте роботу
+пульта керування увімкнення та вимкнення світильника. Приклад структури класів, написаної мовою програмування Java та
+клієнтський код знаходиться за посиланням
+
+
+[github.com/krenevych/patterns/tree/main/Java/labs/lab15_Command/task_3_1
+](https://github.com/krenevych/patterns/tree/main/Java/labs/lab15_Command/task_3_1)
+
+**15.3.2.** Змоделюйте роботу
+пульта керування увімкнення та вимкнення світильників. Реалізуйте універсальний
+пульт, що здійснює вимикання світла усіх світильників у системі. Приклад структури класів, написаної
+мовою програмування Java та клієнтський код знаходиться за посиланням
+
+
+[github.com/krenevych/patterns/tree/main/Java/labs/lab15_Command/task_3_2
+](https://github.com/krenevych/patterns/tree/main/Java/labs/lab15_Command/task_3_2
+)
+
+**15.3.3.** Змоделюйте роботу
+пульта дистанційного керування для телевізора та радіоприймача. Реалізуйте
+універсальний пульт, що вимикає всі пристрої в системі. Приклад структури класів, написаної мовою програмування Java та
+клієнтський код знаходиться за посиланням
+
+
+[github.com/krenevych/patterns/tree/main/Java/labs/lab15_Command/task_3_3](https://github.com/krenevych/patterns/tree/main/Java/labs/lab15_Command/task_3_3)
